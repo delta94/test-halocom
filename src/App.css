@@ -1,0 +1,17 @@
+input, label, select {
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	color: #5C5C5C;
+	background-color: white;
+	box-shadow: none;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 200;
+	font-family: Verdana, Geneva, sans-serif !important;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/assets/icomoon.woff') format('woff');
+}

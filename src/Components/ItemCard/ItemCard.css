@@ -1,0 +1,108 @@
+.search-results .item {
+	border-bottom: solid 1px #eee;
+	position: relative;
+	padding: 0;
+}
+.main .search-results .item {
+	position: relative;
+	padding: 3px 15px 10px;
+	overflow: hidden;
+}
+.main .search-results .item .item-main {
+	width: 100%;
+}
+.item-main {
+	display: table;
+}
+.item-content-wrapper {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.main .search-results .item .item-main .item-content-wrapper {
+	padding: 0 !important;
+}
+.item-title-and-infos {
+	float: left;
+	padding-top: 5px;
+	width: calc(100% - 70px);
+}
+.main h2 {
+	display: inline-block;
+	margin-top: 1em;
+	font-size: 20px;
+	color: #5C5C5C;
+}
+.item-main h2 {
+	float: left;
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: normal;
+}
+.main .search-results .item .item-main .item-title-and-infos h2 {
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+.main .search-results .item .item-main .item-title-and-infos h2, .main .search-results .item .item-main .item-title-and-infos .item-infos {
+	float: inherit;
+	display: block;
+}
+.main .search-results .item .item-main .item-title-and-infos {
+	float: inherit;
+}
+.item-main h2 a {
+	color: #5C5C5C;
+}
+.main .search-results .item .item-main .item-title-and-infos h2 a {
+	color: black;
+	text-decoration: none;
+}
+ul.list-inline, ol.list-inline {
+	display: inline-block;
+}
+.item-infos {
+	float: left;
+	clear: both;
+}
+.main .search-results .item .item-main .item-title-and-infos .item-infos {
+	line-height: 12px;
+	white-space: nowrap;
+}
+.main .search-results .item .item-main .item-title-and-infos h2, .main .search-results .item .item-main .item-title-and-infos .item-infos {
+	float: inherit;
+	display: block;
+}
+.main .search-results .item .item-main .item-title-and-infos .item-infos > li:first-child {
+	padding-left: 0;
+	border: none;
+}
+.main .search-results .item .item-main .item-title-and-infos .item-infos > li {
+	margin-right: 2px;
+	border-left: 1px solid #cfcfcf;
+	padding-left: 5px;
+}
+.main .search-results .item .item-main .item-title-and-infos .item-infos i, .main .search-results .item .item-main .item-title-and-infos .item-infos span, .main .search-results .item .item-main .item-title-and-infos .item-infos a {
+	font-size: 10px;
+	color: dimgray;
+}
+ul.list-inline li, ol.list-inline li {
+	display: inline-block;
+}
+.item-infos a:hover {
+	border-bottom: dotted 1px #ccc;
+}
+a:active, a:hover {
+	outline: 0;
+}
+.main .search-results .item .item-main .text-container {
+	padding: 10px 0 0 10px;
+	max-width: 800px;
+	color: black;
+}
+.text-container p {
+	margin-bottom: 5px;
+}
+.text-container {
+	font-size: 12px;
+	color: #767676;
+}

@@ -1,0 +1,143 @@
+.page-header {
+  position: fixed;
+  z-index: 15;
+  width: 80%;
+  height: 60px;
+  padding: 5px;
+  background: #ff742b;
+  border: none;
+}
+.page-header .logo-wrapper {
+  float: left;
+  width: 230px;
+}
+.page-header a,
+.page-header a:visited {
+  color: white;
+}
+
+.page-header .logo-wrapper .logo img {
+  width: 48px;
+  height: 48px;
+}
+.logo img {
+  float: left;
+  height: 60px;
+  margin-right: 10px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.page-header .logo-wrapper .logo-name {
+  color: white;
+  font-size: 18px;
+  padding-top: 6px;
+}
+.logo .logo-name {
+  float: left;
+  padding-top: 8px;
+  line-height: 1em;
+  font-size: 22px;
+  color: #9d9d9d;
+}
+.page-header .search-wrapper {
+  position: relative;
+  float: left;
+  width: calc(90% - 230px);
+  margin-top: 3px;
+}
+.search-wrapper .input-item-wrapper {
+  display: inline-block;
+  width: calc(100% - 100px);
+  margin-right: 5px;
+}
+
+.search-wrapper input::placeholder {
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 300;
+}
+.page-header .search-wrapper input {
+  border-radius: 0;
+  border-color: transparent;
+  border: none;
+  width: 100%;
+}
+.search-wrapper input {
+  border-radius: 25px;
+  box-shadow: none;
+  line-height: 25px;
+  padding: 0 15px 0 50px;
+  height: 42px;
+  border-color: #b6b6b6;
+  color: #5c5c5c;
+}
+
+.icon-search::before {
+  content: "\e036";
+}
+.search-wrapper .icon-search {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  color: #ff742b;
+  font-size: 24px;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icomoon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+}
+.search-wrapper .powered-by {
+  width: 80px;
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+}
+.search-wrapper .powered-by img {
+  width: 60px;
+  position: relative;
+  top: -2px;
+  left: 4px;
+  vertical-align: bottom;
+}
+.icon-head::before {
+  content: "\e074";
+}
+.icon-head {
+  color: white;
+}
+.page-header .account-wrapper {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .page-header {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .logo-name {
+    display: none;
+  }
+  .page-header .logo-wrapper {
+    width: 50px;
+  }
+  .page-header .search-wrapper {
+    width: calc(90% - 50px);
+  }
+}
+@media only screen and (max-width: 450px) {
+  .page-header .powered-by {
+    display: none;
+  }
+  .page-header .search-wrapper .input-item-wrapper {
+    width: calc(100% - 10px);
+  }
+}

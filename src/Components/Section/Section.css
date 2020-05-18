@@ -1,0 +1,11 @@
+.main {
+	font-size: 13px;
+	position: relative;
+	padding: 60px 0 0 0;
+	background: #f6f6ef;
+}
+.search-pagination {
+	padding: 20px 0 0;
+	text-align: center;
+	background: transparent;
+}
